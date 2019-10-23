@@ -1,14 +1,14 @@
 # Authentication :key:
 
-#### What is an SSH key?
+## What is an SSH key?
 
 The Secure Shell (SSH) system can be configured to allow the use of different types of authentication. In this case, by generating a SHH <i>key pair</i>, consisting of a <i>public key</i> and a <i>private key</i>.
 
-###### Private Keys :closed_lock_with_key:
+##### Private Keys :closed_lock_with_key:
 
 Is kept in your own system, or on the system you're connecting <i>from</i>.
 
-###### Public Keys :unlock:
+##### Public Keys :unlock:
 
 Is copied to the system you're connecting <i>to</i>.
 
@@ -35,7 +35,7 @@ If unsuccessful, you may need to log in with a password and then change permissi
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-### Known hosts
+## Known hosts
 
 Each server has its own public and private key pair, and the public keys of all the servers you've accessed are stored in the file known as known_hosts in your .ssh directory.
 
@@ -49,7 +49,7 @@ For unsuccessful decryption of challenge sent by the server encrypted with that 
 
 ## SCP
 
-Secure Copy Protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts. 
+Secure Copy Protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts.
 
 Copy file from local host to a remote host:
 ```
