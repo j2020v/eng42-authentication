@@ -35,7 +35,7 @@ If unsuccessful, you may need to log in with a password and then change permissi
 chmod 600 ~/.ssh/authorized_keys
 ```
 
-## Known hosts
+## Known hosts :traffic_light:
 
 Each server has its own public and private key pair, and the public keys of all the servers you've accessed are stored in the file known as known_hosts in your .ssh directory.
 
@@ -47,7 +47,7 @@ For unsuccessful decryption of challenge sent by the server encrypted with that 
 
 - Edit the known_hosts file and remove the errant public key.
 
-## SCP
+## SCP :floppy_disk:
 
 Secure Copy Protocol (SCP) is a means of securely transferring computer files between a local host and a remote host or between two remote hosts.
 
